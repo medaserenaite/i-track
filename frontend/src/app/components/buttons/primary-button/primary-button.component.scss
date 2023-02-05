@@ -1,0 +1,21 @@
+button {
+    font-size: 20px;
+    padding: 10px 35px;
+    background-color: #3737b3;
+    border-radius: 5px;
+    border: gray solid 1px;
+    color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    i {
+        margin-right: 10px;
+    }
+
+    &:hover {
+        background-color: #6fa8e2;
+        transition-duration: 0.3s;
+        color: #3737b3;
+    }
+}

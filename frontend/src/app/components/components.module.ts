@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { NavigationComponent } from './global/navigation/navigation.component';
 import { ContentContainerComponent } from './containers/content-container/content-container.component';
 import { ListItemComponent } from './list-item/list-item.component';
+import { PrimaryButtonComponent } from './buttons/primary-button/primary-button.component';
 
 
 
@@ -10,7 +11,8 @@ import { ListItemComponent } from './list-item/list-item.component';
   declarations: [
     NavigationComponent,
     ContentContainerComponent,
-    ListItemComponent
+    ListItemComponent,
+    PrimaryButtonComponent
   ],
   imports: [
     CommonModule
@@ -19,6 +21,7 @@ import { ListItemComponent } from './list-item/list-item.component';
     NavigationComponent,
     ContentContainerComponent,
     ListItemComponent,
+    PrimaryButtonComponent
   ]
 })
 export class ComponentsModule { }
