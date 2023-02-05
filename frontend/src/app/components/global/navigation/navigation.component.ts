@@ -9,7 +9,7 @@ export class NavigationComponent {
   @Input() isMobileMenuOn: boolean = false;
   menuItems = [
     {
-      name: 'Schedule',
+      name: 'Procedure Schedule',
       url: '/procedure-schedule'
     },
     {
