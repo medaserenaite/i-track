@@ -1,0 +1,19 @@
+<div class="global-nav-wrapper">
+    <div *ngIf="isMobileMenuOn" class="mobile-menu"><i class="fa-solid fa-bars fa-2xl"></i></div>
+    <div *ngIf="!isMobileMenuOn" class="desktop-menu">
+        <span *ngFor="let item of menuItems">
+            <a [href]="item.url" class="desktop-menu__item">
+                <div class="xyz">{{item.name}}</div>
+            </a>
+        </span>
+
+    </div>
+</div>
+
+<div *ngIf="isMobileMenuOn" class="mobile-menu-wrapper">
+    <div *ngFor="let item of menuItems">
+        <a [href]="item.url" class="desktop-menu__item">
+            <div class="desktop-menu__item-name">{{item.name}}</div>
+        </a>
+    </div>
+<div>
